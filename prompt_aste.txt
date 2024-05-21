@@ -1,0 +1,44 @@
+According to the following sentiment elements definition: 
+
+- The 'aspect term' refers to a specific feature, attribute, or aspect of a product or service that a user may express an opinion about.
+- The 'opinion term' refers to the sentiment or attitude expressed by a user towards a particular aspect or feature of a product or service.
+- The 'sentiment polarity' refers to the degree of positivity, negativity or neutrality expressed in the opinion towards a particular aspect or feature of a product or service, and the available polarities inlcudes: 'positive', 'negative' and 'neutral'.
+
+Recognize all sentiment elements with their corresponding aspect terms, opinion terms and sentiment polarity in the following text with the format of [('aspect term', 'opinion term', 'sentiment polarity'), ...]: 
+
+Text: Awesome chowder! I used both canned and imitation crab. The second added a lot of flavor. I added Old Bay Seasoning as well. Truly yummy!
+Sentiment Elements: [('flavor', 'a lot', 'good'),('taste','yummy','good')]
+
+Text: The best chicken and vegetable I have made! It&#039;s easy, very yummy and low in calories. Thank you!
+Sentiment Elements: [('taste','yummy','good'),('calories', 'low in', 'good')]
+
+Text: WORST fudge recipe I have ever had the misfortune of making! It gets one star from me because it apparently worked for other people. This garbage did not set properly, even after over 15 hours. Do NOT make this recipe unless you are willing to risk the colossal waste of time and money.
+Sentiment Elements: [('recipe','worst','bad')]
+
+Text: This recipe is FABULOUS!  Almost every cookie recipe I try turns out horrible, but this one was so easy and turned out just the way it says!  Look forward to making this again soon!
+Sentiment Elements: [('preparation','easy','good')]
+
+Text: I just made this for dinner as a side dish to my southwest tamale pie. The only changes I made was to add Thousand Island dressing thats all I had on hand. I also added kidney beans instead of ranch style beans. I forgot the cheese but it was still tasty. Thanks for a quick side dish for dinner.
+Sentiment Elements: [('preparation','quick','good')]
+
+Text: Delicious!  For the coffee, I dissolved 2 teaspoons instant Espresso Powder in water, since I forgot to save some coffee from the pot.  After stirring in the egg, I tasted it and thought it was missing something, so stirred in a teaspoon of almond extract.  I am going to try other extracts also.  Orange I think would be good!  Made for tag game at Kittencalskitchen.com
+Sentiment Elements: [('taste','delicious','good')]
+
+Text: Awesome!  I couldn't get shallots because I live in China and couldn't find them, but I used a white onion instead.  Delicious and healthy.  I will cook this many more times in the future.  Thank-you.
+Sentiment Elements: [('taste','delicious','good'),('health','healthy','good')]
+
+Text: These aren't healthy. Bisquick is full of junk, sugar substitutes are garbage and even the egg suggests a substitute. Sorry but I won't even try this.
+Sentiment Elements: [('health','aren't healthy','bad')]
+
+Text: My husband and I loved this.  It did take a long time to make, but was well worth it.  While it had a long prep time, the individual steps were easy to follow.  One thing I learned the hard way though - some pasta manufacturers now make lasagna noodles that do not need to be precooked (softened in the water).  Check the box before you buy!  I accidentally overcooked the noodles, they burnt a bit and were chewy.  That was my own fault though, and not that of the recipes'.  Thanks, Karamia for sharing this with us!
+Sentiment Elements: [('time','long','bad'),('null', 'worth', 'good')]
+
+Text: I had an abundance of basil in my garden this year. Unfortunately, it was the only herb that did any good this summer. I had no idea what to do with all of it, and one of my coworkers suggested making pesto. I've always liked pesto, but I didn't even know what was in it! This is delicious! So quick and easy to make! And cheap, too! I may try the walnut version next time. The pine nuts were expensive and hard to find.
+Sentiment Elements: [('taste','delicious','good'),('time', 'quick', 'good'),('preparation','easy','good'),('price','cheap','good')]
+
+
+
+
+
+
+
